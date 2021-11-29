@@ -1,0 +1,16 @@
+:root {
+    --primary: #00A65C;
+    --primary-text: #ffffff;
+    --primary-hover:#44BF8D; 
+    --primary-background:#EDECFD;
+    --primary-fonth:#003379;
+    --gray: #EFEFEF;
+    --text: #000000;
+    --transition: all ease 0.5s;
+    --font: 'Roboto', sans-serif;
+    --gutter: 15px;
+    --primary-card:#FBFBFB;
+    --primary-light:#D2EFE2;
+    --contact-background:#ECEBFC;
+    
+}

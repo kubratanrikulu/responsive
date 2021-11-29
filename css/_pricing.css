@@ -1,0 +1,113 @@
+.pricing .pricing-content-2{
+padding-bottom: 3rem;
+
+  
+}
+.pricing .pricing-content-1 > *{
+    padding-left: var(--gutter);
+}
+.pricing .pricing-content-1 h2 {
+    margin-bottom: 1.5rem;
+  }
+  .pricing .pricing-content-1 h1{
+    margin-bottom: 1.5rem;
+  }
+  .pricing .pricing-content-2 .register{
+    margin-top: 1.5rem;
+  }
+  
+  .pricing .pricing-content-1 p {
+    margin-bottom: 1.5rem;
+  }
+  .pricing .pricing-content-2 .column-dolar{
+      background-color: var(--primary-fonth)!important;
+      
+  }
+  .pricing .pricing-content-2 .column-dolar p{
+ color:var(--primary-text)!important;
+  }
+  .pricing .pricing-content-2 .column-dolar h2{
+    color:var(--primary-text)!important;
+     }
+  .pricing .pricing-content-2 .button{
+      justify-content: center;
+     }
+  .pricing .pricing-content-2 .web-dvp{
+    text-align: center;
+  }
+
+  .pricing .pricing-content-2 .col{
+    background-color:var(--primary-card);
+    padding-bottom: 3rem;
+    border-radius: 2rem;
+    padding-top: 3rem;
+  
+    width: calc(100% /3);
+    
+  }
+  @media (min-width: 1200px) {
+    /* @Desktop */
+    .pricing .pricing-content-1 h1 {
+        font-size: 6rem;
+        text-align: center;
+      }
+      .pricing .pricing-content-1 h2 {
+      font-size: 4rem;
+      text-align: center;
+     
+    }
+  
+    .pricing .pricing-content-1 p {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .pricing .pricing-content-2 h1 {
+        font-size: 6rem;
+        text-align: center;
+      }
+      .pricing .pricing-content-2 h2 {
+      font-size: 4rem;
+      text-align: center;
+     
+    }
+  
+    .pricing .pricing-content-2 p {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+
+  }
+  @media (max-width: 1199px) {
+    /* @Mobile */
+    .pricing {
+      text-align: center;
+    }
+    .pricing .pricing-content-2{
+      padding: 3rem;
+    }
+   
+    .pricing .pricing-content-2 .col{
+      width: 100%;
+      justify-content: center;
+    }
+    .pricing .pricing-content-2 .web-dvp p{
+      font-size: 1.5rem;
+    }
+    .pricing .pricing-content-2 .web-dvp h2{
+      font-size: 2.5rem;
+    }
+      .pricing .pricing-content-1 h2 {
+      font-size: 3rem;
+    }
+    .pricing .pricing-content-1{
+      margin-top: 1.5rem;
+    }
+  
+    .pricing .pricing-content-1 p {
+      font-size: 1.5rem;
+    }
+    .pricing .pricing-content-2 .col{
+      text-align: center;
+      }
+    }

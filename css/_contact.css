@@ -1,0 +1,113 @@
+.contact-form{
+ 
+    padding: 1rem;
+    background-color: var(--contact-background);
+    }
+    .contact-form .contact-banner{
+        width: 100%;
+    }
+    .contact-form .col{
+      width: 50%;
+    }
+.contact-form .column-form{
+        
+        background-color: white!important;
+        border-radius: 20px;
+        padding:2rem 2rem 2rem 1rem;
+        box-shadow:3px 3px 4px 3px gainsboro;
+         
+}
+
+.contact-form .column-form label{
+    color: var(--primary-fonth);
+    font-size: 35px;
+    font-weight: bold;
+    
+    
+    }
+.contact-form .column-form input{
+        border-radius: 8px;
+        width: 100%;
+        border:solid 2px var(--primary-hover);
+        height: 50px;
+    }
+    
+.name{
+         margin-bottom: 3rem;
+    }
+    .phone{margin-bottom: 3rem;}
+    .email{
+        margin-bottom: 3rem;
+    }
+    .message{margin-bottom: 3rem;
+    }
+
+.contact-form .column-forming h1 {
+  margin-bottom: 1.5rem;
+}
+
+
+.contact-form .column-forming p {
+  margin-bottom: 1.5rem;
+} 
+@media (min-width: 1200px) {
+    /* @Desktop */
+    .contact-form .column-forming h1  {
+        font-size: 6rem;
+        text-align: center;
+      }
+      .contact-form .column-forming p {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+  
+    
+
+  }
+  
+@media (max-width: 1199px) {
+    /* @Mobile */
+    .contact {
+      text-align: center;
+    }
+    .contact-form .column-form h1 {
+        font-size: 2rem;
+      }
+  
+      .contact-form .column-form h2 {
+      font-size: 1.5rem;
+    }
+    .contact-form .column-form input{
+      width: 100%;
+    }
+    .contact-form .column-form label{
+     font-size: 2rem;
+    }
+    .contact-form .col{
+      width: 100%;
+      padding-top: 2rem;
+    }
+    .contact-form .column-form p {
+      font-size: 1.5rem;
+    }
+    .contact-form .column-form{
+     width: 100%;
+    }
+    .contact-form .column-forming h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .contact-form .column-forming p{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .contact-form .contact-banner{
+      width: 100%;
+    }
+    .contact-form .column-form .button{
+      margin: 0 auto;
+    }
+
+  }
+   
